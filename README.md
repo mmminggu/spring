@@ -6,7 +6,7 @@ https://www.inflearn.com/course/스프링-입문-스프링부트/dashboard
 ---
 
 <h2>Notes</h2>
-<b>2023.09.15</b>
+<b>2023.09.15 (section1)</b>
 
 * 스프링부트 라이브러리
   * spring-boot-start-web
@@ -28,9 +28,16 @@ https://www.inflearn.com/course/스프링-입문-스프링부트/dashboard
     - spring-test : 스프링 통합 테스트 지원
 
   <br>
-<b>2023.09.16</b>
+<b>2023.09.16 (section2)</b>
 * 스프링 웹 개발 방법 
   * 정적 컨텐츠 : 파일 그대로 전달
   * MVC와 템플릿엔진 : 서버에서 변형 후 전달
   * API : json 처럼 데이터 구조 포맷으로 전달 (react, vue ..)
 
+<b>2023.09.17 (section3)</b>
+
+* 회원 관리 예제 - 백엔드 개발
+* 테스트 케이스 작성
+  * 테스트 코드는 의존관계 없이 설계가 되어야 함
+  * 실행 순서는 지정이 불가능
+  * --> 한 테스트가 끝날 때 마다 repository clear
