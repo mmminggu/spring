@@ -52,6 +52,3 @@ https://www.inflearn.com/course/스프링-입문-스프링부트/dashboard
      * @Autowired : 연관관계 연결 (생성자가 1개인 경우 생략 가능)
      * SpringApplication이 포함된 패키지 내에서만 기본 스캔 (수동설정 가능)
   2. 자바 코드로 직접 스프링 빈 등록
-
-<br>
-<b>2023.09.20 (section5)</b>
