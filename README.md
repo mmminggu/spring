@@ -52,3 +52,11 @@ https://www.inflearn.com/course/스프링-입문-스프링부트/dashboard
      * @Autowired : 연관관계 연결 (생성자가 1개인 경우 생략 가능)
      * SpringApplication이 포함된 패키지 내에서만 기본 스캔 (수동설정 가능)
   2. 자바 코드로 직접 스프링 빈 등록
+
+  <br>
+<b>2023.09.21 (section4)</b>
+  * H2 데이터베이스
+    * jdbc:h2:~/test (최초 한번)
+    * ~/test.mv.db 파일 생성 확인
+    * 이후부터 jdbc:h2:tcp://localhost/~/test 접속 해야 소켓을 통해 접근
+  
