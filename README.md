@@ -59,4 +59,8 @@ https://www.inflearn.com/course/스프링-입문-스프링부트/dashboard
     * jdbc:h2:~/test (최초 한번)
     * ~/test.mv.db 파일 생성 확인
     * 이후부터 jdbc:h2:tcp://localhost/~/test 접속 해야 소켓을 통해 접근
-  
+
+  * 스프링 통합 테스트
+    * @SpringBootTest : 스프링 컨테이너와 테스트를 함께 실행한
+    * @Transactional : 테스트 시작 전에 트랜잭션을 시작하고, 테스트 완료 후에 항상 롤백 
+    <br>-> 다음 테스트에 영향
