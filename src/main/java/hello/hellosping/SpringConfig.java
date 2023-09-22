@@ -2,6 +2,7 @@ package hello.hellosping;
 
 import hello.hellosping.domain.MemberRepository;
 import hello.hellosping.repository.JdbcMemeberRepository;
+import hello.hellosping.repository.JdbcTemplateMemberRepository;
 import hello.hellosping.repository.MemoryMemberRepository;
 import hello.hellosping.service.MemberService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,7 +28,8 @@ public class SpringConfig {
     @Bean
     public MemberRepository memberRepository() {
 //        return new MemoryMemberRepository();
-        return new JdbcMemeberRepository(dataSource);
+//        return new JdbcMemeberRepository(dataSource);
+        return new JdbcTemplateMemberRepository(dataSource);
     }
 
 }
