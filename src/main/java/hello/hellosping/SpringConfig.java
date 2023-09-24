@@ -1,5 +1,6 @@
 package hello.hellosping;
 
+import hello.hellosping.aop.TimeTraceAop;
 import hello.hellosping.domain.MemberRepository;
 import hello.hellosping.repository.JdbcMemeberRepository;
 import hello.hellosping.repository.JdbcTemplateMemberRepository;
@@ -28,4 +29,5 @@ public class SpringConfig {
     public MemberService memberService() {
         return new MemberService(memberRepository);
     }
+
 }

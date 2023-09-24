@@ -72,3 +72,8 @@ https://www.inflearn.com/course/스프링-입문-스프링부트/dashboard
 * 스프링 데이터 JPA
   * JPA를 편리하게 사용하도록 도와주는 기술
   * 스프링은 JpaRepository를 상속한 객체를 빈으로 등록
+
+  <br>
+<b>2023.09.23 ~  (section7)</b>
+* AOP (Aspect Oriented Programming)
+  * 모든 메소드의 호출 시간 측정 -> 원하는 곳에 공통 관심 사항 적용
